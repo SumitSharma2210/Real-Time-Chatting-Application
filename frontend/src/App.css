@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    margin-top: 0;
+    background-color: rgb(248, 248, 252);
+}
+
+@media(max-width: 700px) and (max-height: 1000px) {
+    .JoinContainer{
+    width: 100%;
+    }
+    .JoinContainer > img{
+        width: 30vw !important;
+    }
+    
+    .JoinContainer > h1{
+    color: white;
+    width: 65vw !important;
+    padding: 3vw !important;
+    box-sizing: border-box;
+    border-bottom: 0.6vw solid white  !important;
+    font-size: 6vw !important;
+    font-family:"Roboto";
+    } 
+
+    #joinInput{
+        width: 65vw !important;
+        padding:4vw !important;
+        font-size: 5vw !important;
+        box-sizing: border-box;
+        margin: 5vw !important;
+    }
+    .joinbtn{
+        width: 65vw !important;
+        padding:4vw !important;
+        font-size: 5vw !important;
+       
+    }
+
+}
